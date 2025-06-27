@@ -1,0 +1,512 @@
+*{
+    font-family: 'FuturaPTBook', sans-serif;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'FuturaPTBook';
+    src: url('fonts/FuturaPTBook.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@media (max-width: 767px) {
+
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(126, 126, 126);
+        padding-bottom: 10px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    
+    header ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header ul li{
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+    
+      .menu-button {
+        padding: 10px 20px;
+        background-color: #eee;
+        cursor: pointer;
+      }
+    
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(9, 20, 168, 0.993);
+        color: #fff;
+        width: 100vw;
+        z-index: 1;
+      }
+    
+      .dropdown-content ul {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .dropdown-content li {
+        padding: 8px 10px;
+        cursor: pointer;
+        font-size: 15px;
+      }
+    
+      .dropdown:hover .dropdown-content{
+        display: block;
+      }
+    
+    
+      .divider {
+        border-top: 1px solid #ddd;
+        margin-top: 5px;
+        padding-top: 5px;
+      }
+}
+
+#div-1{
+    /* margin-left: 2px; */
+}
+#div-1 ul>li{
+    /* margin-left: 2px; */
+    
+}
+header li{
+    font-size: 8pt;
+}
+#div-1,#div-2,#about-and-jobs{
+    font-weight: bolder;
+}
+
+#about-and-jobs{
+    cursor: pointer;
+    font-size: 8pt;
+}
+
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size:20px;
+    font-weight:700;
+    line-height:26px;
+}
+
+p{
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-and-jobs{
+    display: flex;
+    flex-direction: row;
+}
+
+#about-and-jobs li{
+    margin-right: 15px;
+}
+section{
+    width: 100%;
+}
+.imagem1{
+    width: 100%;
+}
+
+.imagem1 img{
+    width: 99%;
+    height: 250px;
+}
+
+.imagem2{
+    width: 100%;
+}
+
+.imagem1 img{
+    width: 99%;
+    height: 250px;
+}
+
+.imagem2 img{
+    width: 99%;
+    height: 250px;
+}
+
+.imagem3 img{
+    width: 99%;
+    height: 250px;
+}
+
+section h1,p{
+    text-align: left;
+    width: 240px;
+}
+
+section span{
+    color:rgba(9, 20, 168, 0.993);
+}
+
+iframe{
+    width: 100%; height: 240px;
+}
+
+
+
+
+
+
+
+footer {
+    border-top: 1px solid rgb(163, 159, 159);
+    border-top-style: solid;
+}
+
+.parent div{
+  padding-left: 10px;
+}
+    
+.send-email-btn{
+    background-color:rgba(9, 20, 168, 0.993);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.send-email-input{
+    padding: 6px;
+    width: 150px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+input::placeholder {
+    font-size: 22px;
+  }
+
+  .parent li,.parent p{
+    font-size: 12px;
+}
+
+.div1{
+    /* border: 1px solid black; */
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 2px;
+}
+.div1 h1{
+    font-size: 30pt;
+}
+
+.div2{
+    /* border: 1px solid black; */
+    height: 80px;
+    margin-top: 2px;
+}
+
+
+.div4{
+    /* border: 1px solid black; */
+}
+
+.div3{
+    /* border: 1px solid red; */
+}
+
+
+.div4 p {
+    word-break: break-word;
+    white-space: normal;
+    word-wrap: break-word;  
+    width: 250px;
+    overflow-wrap: break-word;
+}
+
+.div5{
+    /* border: 1px solid green; */
+}
+.div6{
+    /* border: 1px solid green; */
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+/* media query --------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    .dropdown-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .dropdown-content div {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        
+      }
+    .menu-button{
+        display: none;
+    }
+
+    #div-1{
+        margin-left: 20px;
+    }
+    #div-2{
+        margin-left: 400px;
+    }
+    #div-1 ul>li{
+        margin-left: 20px;
+        
+    }
+    header li{
+        font-size: 13pt;
+    }
+    #div-1,#div-2,#about-and-jobs{
+        font-weight: bolder;
+    }
+    
+    #about-and-jobs{
+        cursor: pointer;
+        font-size: 13pt;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(126, 126, 126);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    header ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header ul li{
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    h1{
+        font-size:30px;
+        font-weight:700;
+        line-height:42px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #about-and-jobs{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #about-and-jobs li{
+        margin-right: 15px;
+    }
+    
+.imagem1{
+    width: 1250px;
+}
+
+.imagem1 img{
+    width: 99%;
+    height: 600px;
+}
+
+.imagem2 img{
+    width: 99%;
+    height: 600px;
+}
+
+.imagem3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagem3 img{
+    width: 1200px;
+    height: 600px;
+}
+
+section h1,p{
+    text-align: left;
+    width: 680px;
+}
+
+iframe{
+    width: 680px; height: 400px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+    
+
+.div2 {
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-row-start: 2;
+}
+
+
+.div6 {
+    grid-row-start: 3;
+}
+
+.send-email-btn{
+    /* padding: 14px; */
+    background-color:rgba(9, 20, 168, 0.993);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 46px;
+    font-size: 16px;
+}
+
+.send-email-input{
+    padding: 14px;
+    width: 250px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+input::placeholder {
+    font-size: 22px;
+  }
+
+.outras-informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lista-informacoes{
+    display: flex;
+    flex-direction: row;
+}
+.lista-informacoes li{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.parent li,.parent p{
+    font-size: 18px;
+}
+
+.parent li{
+    cursor: pointer;
+}
+
+.div1{
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.div1 h1{
+    font-size: 50pt;
+}
+
+.div2{
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+
+.div4{
+    width: 500px;
+    /* border: 1px solid black; */
+    max-width: 100%;
+    margin-right: 40px;
+}
+
+.div3{
+    /* border: 1px solid black; */
+}
+
+.div4 p {
+    word-break: break-word;
+    white-space: normal;
+    word-wrap: break-word;  
+    width: 500px;
+    overflow-wrap: break-word;
+}
+
+.div6{
+    margin-left: 80px;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+}
