@@ -6,7 +6,7 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist/serene-shopping",
-        "buildCommand": "npm run build:production"
+        "buildCommand": "npm run build"
       }
     }
   ],
