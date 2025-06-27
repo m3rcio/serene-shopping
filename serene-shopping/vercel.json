@@ -5,8 +5,8 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist/serene-shopping"
-    
+        "distDir": "dist/serene-shopping",
+        "buildCommand": "npm run build:production"
       }
     }
   ],
