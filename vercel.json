@@ -1,5 +1,4 @@
 {
-  "rootDirectory": "serene-shopping",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/serene-shopping"
 }
