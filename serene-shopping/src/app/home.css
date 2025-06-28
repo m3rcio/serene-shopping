@@ -263,10 +263,18 @@ input::placeholder {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
     }
 
-   
+   .search{
+    width: 300px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+
+   .search:focus{
+    outline: none;
+   }
 
     .dropdown-content div {
         list-style: none;
