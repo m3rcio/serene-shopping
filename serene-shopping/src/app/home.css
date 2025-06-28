@@ -259,9 +259,18 @@ input::placeholder {
         
     }
 
+    .logo-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+   
+
     .dropdown-content div {
         list-style: none;
-        padding: 3px;
+       padding-top: 30px;
         margin: 0;
         display: flex;
         flex-direction: row;
