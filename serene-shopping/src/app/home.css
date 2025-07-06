@@ -388,7 +388,9 @@ input::placeholder {
     flex-direction: row;
 }
 
-.hero-section .row 
+.delivery{
+    background-color: rgb(151, 144, 144);
+}
 
 section h1,p{
     text-align: left;
