@@ -398,6 +398,16 @@ section h1,p{
     width: 680px;
 }
 
+.img-div{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.icons{
+    width: 100px;
+    height: 100px;
+}
+
 iframe{
     width: 680px; height: 400px;
 }
