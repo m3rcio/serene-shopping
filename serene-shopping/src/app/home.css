@@ -390,10 +390,11 @@ input::placeholder {
 
 .delivery{
     background-color: rgb(151, 144, 144);
+    border-radius: 10px;
 }
 
 section h1,p{
-    text-align: left;
+    text-align: center;
     width: 680px;
 }
 
