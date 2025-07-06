@@ -383,6 +383,13 @@ input::placeholder {
     height: 600px;
 } */
 
+.hero-section .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-section .row 
+
 section h1,p{
     text-align: left;
     width: 680px;
