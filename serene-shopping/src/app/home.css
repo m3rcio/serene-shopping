@@ -399,8 +399,14 @@ section h1,p{
 }
 
 .img-div{
-    border: 1px solid black;
     width: 100%;
+}
+
+.img-div img{
+    width: 90px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .icons{
