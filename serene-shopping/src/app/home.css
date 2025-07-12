@@ -405,6 +405,17 @@ section h1,p{
     justify-content: center;
 }
 
+
+.carousel-item,.carousel-inner{
+    border: 1px solid black;
+}
+.carousel-item{
+    width: 700px;
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .img-div{
     width: 100%;
 }
