@@ -1,0 +1,133 @@
+    /* Main container styles */
+.tc-container {
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 auto;
+  text-align: center;
+  color: #333; /* Main text color */
+  position: relative;
+  box-sizing: border-box;
+}
+/* Description text styles */
+.tc-description {
+  font-size: 1.3em;
+  line-height: 1.8em;
+  max-width: 800px; /* Control text width */
+  margin: 0 auto 40px;
+  color: #444; /* Description text color */
+}
+/* Carousel wrapper */
+.tc-wrapper {
+  position: relative;
+  padding: 20px 0;
+}
+/* Carousel gallery container */
+.tc-gallery {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 900px; /* Controls how many cards are visible */
+}
+/* Track that holds all slide cards */
+.tc-track {
+  display: flex;
+  transition: transform 0.5s ease; /* Controls slide animation speed */
+}
+/* Individual card styling */
+.tc-card {
+  min-width: 250px; /* Card width */
+  width: 250px;
+  margin: 0 10px; /* Space between cards */
+  border-radius: 12px; /* Rounded corners */
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Card shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+  background-color: white;
+}
+/* Hover effect for cards */
+.tc-card:hover {
+  transform: scale(1.03); /* Slight enlargement on hover */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Enhanced shadow on hover */
+}
+/* Image styling within cards */
+.tc-card img {
+  width: 100%;
+  height: 150px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures images fill the space nicely */
+  display: block;
+}
+/* Left gradient overlay */
+.tc-gradient-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  z-index: 10;
+}
+/* Right gradient overlay */
+.tc-gradient-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  z-index: 10;
+}
+/* Navigation button styling */
+.tc-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5C258D; /* Button icon color - customize this */
+  transition: background-color 0.2s;
+}
+/* Button hover effect */
+.tc-btn:hover {
+  background-color: #f8f8f8;
+}
+/* Position the previous button */
+.tc-prev {
+  left: 10px;
+}
+/* Position the next button */
+.tc-next {
+  right: 10px;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .tc-gallery {
+    max-width: 300px; /* Show only one card on mobile */
+  }
+  .tc-description {
+    font-size: 1.1em;
+    padding: 0 15px;
+  }
+  .tc-btn {
+    width: 36px;
+    height: 36px;
+  }
+}
+/* Fade-in animation */
+@keyframes tcFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.tc-fade-in {
+  animation: tcFadeIn 0.5s forwards;
+}
