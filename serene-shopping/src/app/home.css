@@ -398,6 +398,13 @@ section h1,p{
     width: 680px;
 }
 
+.colecoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .img-div{
     width: 100%;
 }
