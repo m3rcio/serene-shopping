@@ -1,6 +1,5 @@
 *{
     font-family: 'FuturaPTBook', sans-serif;
-    
 }
 
 body{
@@ -384,7 +383,7 @@ section h1,p{
 
 
 .carousel-item,.carousel-inner{
-    border: 1px solid black;
+    
 }
 .carousel-item{
     width: 700px;

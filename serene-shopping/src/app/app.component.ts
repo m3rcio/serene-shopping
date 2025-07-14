@@ -9,7 +9,7 @@ declare function initCarousel(): void;
 })
 export class AppComponent {
   title = 'serene-shopping';
-
+  
   
 
 ngAfterViewInit(): void {
