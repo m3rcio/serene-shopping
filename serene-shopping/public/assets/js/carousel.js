@@ -1,3 +1,5 @@
+alert("bom dia!");
+console.log("bom dia")
 (function() {
   // Only run this script once the DOM is fully loaded
   document.addEventListener('DOMContentLoaded', function() {
@@ -61,6 +63,7 @@
     function goToPrevSlide() {
       if (isTransitioning) return;
       goToSlide(currentIndex - 1);
+      alert("bom dia!");
     }
     /**
      * Navigate to the next slide
