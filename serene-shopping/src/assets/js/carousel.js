@@ -1,4 +1,4 @@
-alert("bom dia!");
+
 (function() {
   // Only run this script once the DOM is fully loaded
   document.addEventListener('DOMContentLoaded', function() {
