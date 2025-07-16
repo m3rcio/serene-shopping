@@ -427,6 +427,15 @@ section h1,p{
     margin-top: 30px;
 }
 
+.btn-div button{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+
 .icons{
     width: 100px;
     height: 100px;
