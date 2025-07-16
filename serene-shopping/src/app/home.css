@@ -381,7 +381,9 @@ section h1,p{
     justify-content: center;
 }
 
-
+.colecoes h1{
+    margin-bottom: 5px;
+}
 .carousel-item,.carousel-inner{
     
 }
