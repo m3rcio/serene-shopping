@@ -435,7 +435,7 @@ section h1,p{
 }
 
 .testimonials-div{
-      display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -456,126 +456,29 @@ section h1,p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .extra-items{
     margin-right: 40px;
 }
+
+footer .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .icons{
     width: 100px;
     height: 100px;
 }
-
-iframe{
-    width: 680px; height: 400px;
-}
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 8px;
-}
     
 
-.div2 {
-    grid-row-start: 2;
-}
-
-.div3 {
-    grid-row-start: 2;
-}
-
-.div4 {
-    grid-row-start: 2;
-}
-
-
-.div6 {
-    grid-row-start: 3;
-}
-
-.send-email-btn{
-    /* padding: 14px; */
-    background-color:rgba(9, 20, 168, 0.993);
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 130px;
-    height: 46px;
-    font-size: 16px;
-}
-
-.send-email-input{
-    padding: 14px;
-    width: 250px;
-    background-color: rgb(236, 236, 236);
-    border: none;
-}
-
-input::placeholder {
-    font-size: 22px;
-  }
-
-.outras-informacoes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.lista-informacoes{
-    display: flex;
-    flex-direction: row;
-}
-.lista-informacoes li{
-    margin-left: 10px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.parent li,.parent p{
-    font-size: 18px;
-}
-
-.parent li{
-    cursor: pointer;
-}
-
-.div1{
-    height: 80px;
-    margin-top: 100px;
-    margin-left: 80px;
-}
-.div1 h1{
-    font-size: 50pt;
-}
-
-.div2{
-    height: 80px;
-    margin-top: 60px;
-    margin-left: 80px;
-}
-
-
-.div4{
-    width: 500px;
-    /* border: 1px solid black; */
-    max-width: 100%;
-    margin-right: 40px;
-}
-
-.div4 p {
-    word-break: break-word;
-    white-space: normal;
-    word-wrap: break-word;  
-    width: 500px;
-    overflow-wrap: break-word;
-}
-
-.div6{
-    margin-left: 80px;
-}
 
 .icons{
     width: 30px;
