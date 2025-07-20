@@ -1,5 +1,6 @@
 *{
     font-family: 'FuturaPTBook', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -130,9 +131,7 @@ section{
 #about-and-jobs li{
     margin-right: 15px;
 }
-section{
-    width: 100%;
-}
+
 .imagem1{
     width: 100%;
 }
@@ -435,15 +434,15 @@ section h1,p{
 }
 
 .div-padrao{
-    border: 1px solid black;
 }
 
-.testimonials-div{
+.testimonials-div {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap; 
     justify-content: center;
-    border: 1px solid rgb(223, 40, 40);
+    align-items: center;
+    max-width: 100%; 
+    box-sizing: border-box; 
 }
 
 .testimonial{
@@ -452,7 +451,9 @@ section h1,p{
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    width: 200px;
+    box-shadow: 1px black;
+    border-radius: 10px;
+    width: 300px;
 }
 
 .extra{
