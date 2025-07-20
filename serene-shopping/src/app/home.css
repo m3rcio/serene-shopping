@@ -165,9 +165,6 @@ section h1,p{
     width: 240px;
 }
 
-section span{
-    color:rgba(9, 20, 168, 0.993);
-}
 
 iframe{
     width: 100%; height: 240px;
@@ -397,6 +394,15 @@ section h1,p{
     width: 100%;
 }
 
+.explore-lojas-btn{
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(173, 5, 173);
+    cursor: pointer;
+}
+
 .img-div{
     width: 100%;
      display: flex;
@@ -456,7 +462,10 @@ section h1,p{
     width: 300px;
 }
 
-
+.testimonial p{
+    border: 1px solid black;
+    width: 200px;
+}
 
 .extra{
      display: flex;
