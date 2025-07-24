@@ -477,6 +477,7 @@ section h1,p{
 }
 
 .extra-items{
+    border: 1px solid black;
     margin-right: 40px;
 }
 
