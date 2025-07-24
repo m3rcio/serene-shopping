@@ -480,6 +480,12 @@ section h1,p{
     margin-right: 40px;
 }
 
+.extra-items span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
 footer .row{
     display: flex;
     flex-direction: row;
@@ -489,26 +495,31 @@ footer .row{
     padding-bottom: 40px;
 }
 
+.row li{
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
 .social-media{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+.logo{
+    width: 60px;
+    height: 50px;
+}
+
 .social-media li{
     cursor: pointer;
 }
 
-.icons{
-    width: 100px;
-    height: 100px;
-}
-    
-
-
-.icons{
-    width: 30px;
-    height: 30px;
+.copyright-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 }
