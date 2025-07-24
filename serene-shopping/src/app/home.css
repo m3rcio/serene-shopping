@@ -489,6 +489,12 @@ footer .row{
     padding-bottom: 40px;
 }
 
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .icons{
     width: 100px;
     height: 100px;
