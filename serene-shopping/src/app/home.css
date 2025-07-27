@@ -507,6 +507,11 @@ section h1,p{
     margin-right: 40px;
 }
 
+.achievement-icons{
+    width: 40px;
+    height: 40px;
+}
+
 .extra-items span{
     display: flex;
     flex-direction: column;
