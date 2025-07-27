@@ -436,9 +436,20 @@ section h1,p{
     margin-right: 20px;
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffba3b;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    cursor: pointer;
 }
 
+.btn-div button:hover{
+    transform: scale(1.06);
+}
+
+.categorias img:hover{
+  transform: scale(1.03);
+}
 
 .testimonials-div {
     display: flex;
